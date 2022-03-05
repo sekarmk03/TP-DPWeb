@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2007703 - Sekar Madu Kusumawardani | Tugas Praktikum 1</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html">
+                <img src="assets/img/logo-tp-web.png" alt="logo-tp-web">
+            </a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+          <article class="content" id="about">
+            <h2>About</h2>
+            <p>Id dolore consequat magna anim adipisicing elit amet laborum non commodo eiusmod esse. Ex esse commodo anim occaecat.</p>
+            <p>Ullamco elit aliqua id consectetur quis nulla. Ea tempor officia ullamco eiusmod irure elit aliquip deserunt laboris aliquip. Voluptate quis officia aliquip ut veniam anim eu anim consequat nostrud. Deserunt ipsum eiusmod ipsum ullamco tempor ad magna incididunt. Exercitation labore ex laborum dolor velit anim laborum nostrud labore proident nisi culpa. Ea non sint excepteur fugiat Lorem nisi ipsum exercitation exercitation et. Ea proident enim ad sunt adipisicing amet eiusmod.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, autem. Nobis, rem ab quam laudantium fugit ratione inventore exercitationem recusandae vero veniam amet repellat velit. Illum molestias quis deleniti doloremque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, consequuntur aperiam quis quam expedita ad quasi magni mollitia. Illum commodi obcaecati pariatur suscipit. Dignissimos doloribus ab porro labore, exercitationem quas.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni culpa labore nostrum cupiditate ratione beatae, odit unde incidunt placeat facere voluptatum quasi nesciunt aliquam tenetur obcaecati minima iste perspiciatis sed?</p>
+        </article>
+        </main>
+        <aside class="sidebar">
+            <section class="avatar">
+                <img src="assets/img/profil2.png" alt="Sekar M.K.">
+            </section>
+            <section class="profile">
+                <table>
+                    <tr>
+                        <th>Nim</th>
+                        <td>2007703</td>
+                    </tr>
+                    <tr>
+                        <th>Nama</th>
+                        <td>Sekar Madu K.</td>
+                    </tr>
+                    <tr>
+                        <th>Kelas</th>
+                        <td>C1 2020</td>
+                    </tr>
+                    <tr>
+                        <th>Prodi</th>
+                        <td>Ilmu Komputer</td>
+                    </tr>
+                </table>
+            </section>
+        </aside>
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <p><a href="https://instagram.com/sekarmk03" target="_blank">&copy;2022 | Sekar Madu Kusumawardani | 2007703</a></p>
+    </footer>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementsByTagName("nav")[0];
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+</body>
+</html>

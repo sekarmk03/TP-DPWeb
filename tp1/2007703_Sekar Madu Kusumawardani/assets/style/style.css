@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a {
+      text-decoration: none;
+      color: unset;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: #DFF6FF;
+  }
+  
+  .header img {
+      width: 225px;
+      margin: 15px 0;
+  }
+  
+  nav {
+    background-color: #5D8BF4;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  nav li {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px 10px;
+    float: left;
+  }
+  
+  nav li:hover {
+    background-color: #2D31FA;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  .main-content {
+    margin: 40px 10px 40px 0;
+    width: calc(70% - 10px);
+    float: left;
+  }
+  
+  .main-content .content, .sidebar {
+    padding: 15px;
+    border: 2px solid #e3e3e3;
+    border-radius: 5px;
+  }
+
+  .content {
+      margin: 0 15px 25px 0;
+  }
+  
+  .sidebar {
+    margin-top: 40px;
+    float: left;
+    width: 30%;
+  }
+
+  .avatar {
+      text-align: center;
+      margin: 10px auto;
+  }
+
+  .avatar img {
+    border-radius: 50%;
+    width: 60%;
+  }
+
+  table {
+      margin: 10px auto;
+  }
+
+table th {
+      padding-right: 20px;
+      text-align: left;
+  }
+
+  .clear {
+      clear: both;
+  }
+
+  footer {
+      background-color: #5D8BF4;
+      height: 45px;
+      text-align: center;
+      padding: 15px;
+  }
+
+  footer p {
+      margin: 0;
+      font-size: 15px;
+      color: #fff;
+  }
+
+  .input {
+      margin: 10px 0;
+  }
+
+  label {
+      display: block;
+  }
+
+  input,
+  textarea {
+      width: 100%;
+      border-radius: 5px;
+      border: solid 2px #e3e3e3;
+      margin: 7px 0;
+      padding: 10px;
+  }
+
+  .input span {
+      color: red;
+  }
+
+  #contact button {
+      background-color: #5D8BF4;
+      border: none;
+      padding: 15px 10px;
+      color: #fff;
+      font-size: 15px;
+      border-radius: 5px;
+  }
+
+  #contact button:hover {
+      background-color: #2D31FA;
+      cursor: pointer;
+  }
